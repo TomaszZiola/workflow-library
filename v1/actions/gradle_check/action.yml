@@ -1,0 +1,8 @@
+name: 'Gradle Check Action'
+description: 'Run Gradle check on the project'
+runs:
+  using: 'composite'
+  steps:
+    - name: Run Gradle Check
+      shell: bash
+      run: ./gradlew check
