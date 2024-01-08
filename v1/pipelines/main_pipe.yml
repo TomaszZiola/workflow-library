@@ -1,0 +1,2 @@
+include:
+  - local: V1/pipelines/abstract/test_gradle.yml

@@ -1,0 +1,3 @@
+test_gradle:
+  extends:
+    - .gradle_check_job

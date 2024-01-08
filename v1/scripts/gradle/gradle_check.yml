@@ -1,0 +1,3 @@
+.gradle_check_script:
+  script:
+    - gradle check

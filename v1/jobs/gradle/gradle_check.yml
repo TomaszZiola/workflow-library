@@ -1,0 +1,4 @@
+.gradle_check_job:
+  runs-on: ubuntu-latest
+  script:
+    - !reference [ .gradle_check_script, script ]
